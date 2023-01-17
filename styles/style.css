@@ -329,7 +329,7 @@ h1, h2, h3 {
   list-style: none;
 }
 
-.table__heading {
+.table__heading_theme_dark {
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
@@ -337,7 +337,7 @@ h1, h2, h3 {
   margin: 0 0 20px 0;
 }
 
-.table__text  {
+.table__text_theme_dark  {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
