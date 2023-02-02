@@ -3,7 +3,6 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  position: relative;
   align-items: center;
   justify-content: left;
   display: flex;
