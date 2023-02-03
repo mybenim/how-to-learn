@@ -1,6 +1,4 @@
 .khan__book-container {
-  left: 0;
-  bottom: 0;
-  object-position: left bottom;
-  object-fit: cover;
+  display: flex;
+  width: 80%;
 }

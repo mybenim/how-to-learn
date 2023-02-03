@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
 
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
-    <link rel="stylesheet" href="pages/index.css">
-    <link rel="stylesheet" href="pages/page.css">
 
     <title>Научиться учиться</title>
   </head>
@@ -60,69 +58,69 @@
       <!-- Секция techniques -->
 
       <section class="techniques">
-        <h2 class="techniques__title">Техники обучения</h2>
-        <p class="techniques__subtitle">Пять практик от Барбары Оакли</p>
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
 
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img src="./images_sprint-2/cards-attention.png"
               class="cards__image" alt="Два вида внимания">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное и
               рассеянное мышление.</p>
-          </div>
+          </li>
 
-          <div class="cards__item">
+          <li class="cards__item">
             <img src="./images_sprint-2/cards-recall.png"
               class="cards__image" alt="Отзыв">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">
               Вспоминайте изученное — это позволит соединить разрозненные порции
               памяти.</p>
-          </div>
+          </li>
 
-          <div class="cards__item">
+          <li class="cards__item">
             <img src="./images_sprint-2/cards-interliving.png"
               class="cards__image" alt="Интерливинг">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
-          </div>
+          </li>
 
-          <div class="cards__item">
+          <li class="cards__item">
             <img src="./images_sprint-2/cards-question.png"
               class="cards__image" alt="Вопросы">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
-          </div>
+          </li>
 
-          <div class="cards__item">
+          <li class="cards__item">
             <img src="./images_sprint-2/cards-competence.png"
               class="cards__image" alt="Иллюзия">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <!-- Секция video -->
 
       <section class="video">
-        <h2 class="video-title">Видео на TED</h2>
-        <p class="video-subtitle">Для тех, кто любит прокрастинировать</p>
+        <h2 class="section-title">Видео на TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
 
         <div class="video__iframes">
           <iframe src="https://www.youtube.com/embed/arj7oStGLkU"
-            class="video__iframe"></iframe>
+            class="video__iframe">
+          </iframe>
           <iframe src="https://www.youtube.com/embed/5MgBikgcWnY"
             class="video__iframe">
-
           </iframe>
         </div>
       </section>
@@ -130,7 +128,7 @@
       <!-- Секция oakley -->
 
       <section class="oakley">
-        <div class="oakley__two-columns">
+        <div class="two-columns">
           <h2 class="oakley__brief">История Барбары Оакли</h2>
           <div class="oakley__main-text">
             <p class="oakley__paragraph">
@@ -212,18 +210,19 @@
 
       <section class="khan">
         <div class="khan__container">
-          <p class="khan__autor">Салман Хан</p>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">
-            Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+
+          <blockquote class="khan__quote">
+            <p>Страсть и новаторство Сала Хана меняют процесс обучения миллионов
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
             всем, кто занимается образованием — так учащиеся повсюду смогут
             получить навыки и знания, которые приносят успех в школе, карьере и
-            жизни.
-          </p>
+            жизни.</p>
+          </blockquote>
 
-          <p class="khan__quote-autor">Джордж Лукас</p>
-          <p class="khan__quote-autor-subline">Кинорежиссер, продюсер</p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 
           <div class="khan__book-container">
             <img src="./images_sprint-2/khan-book.jpg"
@@ -311,20 +310,21 @@
       <!-- Секция resources -->
 
       <section class="resources">
-        <h2 class="resources-title">Полезные ресурсы</h2>
-        <p class="resources-subtitle">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
 
         <div class="resources__logo-zone">
-          <a href="#"><img src="./images/logo/resources-arzamas.svg"
-              class="logo-zone" alt="Арзамас_логотип"></a>
-          <a href="#"><img src="./images/logo/resources-n1.svg"
-              class="logo-zone" alt="N+1_логотип"></a>
-          <a href="#"><img src="./images/logo/resources-strelka.svg"
-              class="logo-zone" alt="Стрелка_логотип"></a>
-          <a href="#"><img src="./images/logo/resources-polka.svg"
-              class="logo-zone" alt="Полка_логотип"></a>
+          <a class="resources__link" href="#">
+            <img src="./images/logo/resources-arzamas.svg"
+              class="resources__logo" alt="Арзамас_логотип"></a>
+          <a class="resources__link" href="#"><img src="./images/logo/resources-n1.svg"
+              class="resources__logo" alt="N+1_логотип"></a>
+          <a class="resources__link" href="#"><img src="./images/logo/resources-strelka.svg"
+              class="resources__logo" alt="Стрелка_логотип"></a>
+          <a class="resources__link" href="#"><img src="./images/logo/resources-polka.svg"
+              class="resources__logo" alt="Полка_логотип"></a>
         </div>
       </section>
     </main>
@@ -336,8 +336,8 @@
         <div class="footer__column footer__column_content_copyright">
           <img src="./images/logo_place_footer.svg"
             class="logo logo_place_footer" alt="логотип">
-          <p class="footer__author">&copy; Инна Головко</p>
-        </div>
+            <p class="footer__author">&copy; Инна Головко</p>
+             </div>
 
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
@@ -365,8 +365,7 @@
               </li>
               <li>
                 <a href="#" class="footer__column-link"><img src="./images/tiktok-icon.svg"
-                    class="footer__social-icon" alt="ТикТок">TikTok</a
-                >
+                    class="footer__social-icon" alt="ТикТок">TikTok</a>
               </li>
             </ul>
           </nav>
